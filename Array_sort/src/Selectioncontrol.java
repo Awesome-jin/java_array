@@ -9,7 +9,7 @@ public class Selectioncontrol {
 		for (int i = 0; i <= len; i = i + 1) {
 			// 비교위치 반복문
 			for (int j = i + 1; j < len; j = j + 1) {
-				if (ar[i] > ar[j]) { // i가 j보다 크면 바꾼다 (=오름차순)
+				if (ar[i] > ar[j]) { // i가 j보다 크면 바꾼다 (=오름차순). 반대로 내림차순이면 뒤의 데이터가 커야한다!
 					// swap (콜라와 사이다 서로 위치를 바꾼다 생각해보자)
 					int temp = ar[i]; // 빈컵에다가 i배열 담아놓기
 					ar[i] = ar[j]; // 빈 i에다가 j배열 담아놓기
